@@ -1,20 +1,21 @@
 # Projet Rando
 
-Application web d'organisation de randonnée de groupe, réalisée dans le cadre de la formation Holberton School.
+Site vitrine réalisé dans le cadre de la formation Holberton School. L'objectif de l'exercice est d'apprendre les bases du HTML et du CSS en construisant un site statique sur le thème de la randonnée.
 
-## Objectif
+## Objectif pédagogique
 
-Permettre à un groupe (une classe, une dizaine de personnes) d'organiser une sortie randonnée commune : confirmer sa participation, se répartir l'équipement, organiser le covoiturage, consulter les infos du parcours et discuter en temps réel.
+- Structurer une page avec du HTML sémantique
+- Mettre en forme et mettre en page avec du CSS
+- Concevoir une vitrine claire et responsive, sans framework ni JavaScript
 
-## Stack envisagée
+## Stack
 
-- Front : HTML, CSS et JavaScript vanilla, sans framework ni build
-- Backend : Supabase (authentification, base Postgres, RLS, Realtime)
-- Données météo : Open-Meteo
+- HTML
+- CSS
 
 ## Statut
 
-Projet en cours. L'implémentation de référence est développée en parallèle dans le dépôt `rando-app`.
+Projet d'apprentissage en cours.
 
 ## Auteur
 
