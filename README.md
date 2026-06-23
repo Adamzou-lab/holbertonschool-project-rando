@@ -1,6 +1,6 @@
 # Projet Rando
 
-Site vitrine réalisé dans le cadre de la formation Holberton School. L'objectif de l'exercice est d'apprendre les bases du HTML et du CSS en construisant un site statique sur le thème de la randonnée.
+Site vitrine réalisé dans le cadre de la formation Holberton School. Il présente 4 randonnées populaires en Ariège. L'objectif de l'exercice est d'apprendre les bases du HTML et du CSS en construisant un site statique.
 
 ## Objectif pédagogique
 
