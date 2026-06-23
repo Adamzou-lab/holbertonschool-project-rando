@@ -19,4 +19,4 @@ Projet d'apprentissage en cours.
 
 ## Auteur
 
-Adam (Adamzou-lab), Holberton School.
+Adam (Adamzou-lab).
