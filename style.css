@@ -37,74 +37,111 @@ nav {
 }
 .navigation-link a:hover {color: var(--vert_clair);}
 
-/* Cartes */
-article {
-    display: flex;
-    justify-content: space-around;
+.titre {
+    text-align: center;
+    margin-top: 45px;
 }
+
+/* cartes */
+.grid-rando {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 960px;
+  margin: 50px auto 0;
+  padding: 0 16px;
+}
+
 .carte-rando {
-    position: relative;
-    top: 50px;
-    width: 450px;
-    height: 350px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    perspective: 1000px;
-    box-shadow: 0 0 0 5px #ffffff80;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .carte-image {
-    max-width:100%;
-    height:auto;
-    box-sizing: border-box;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.carte-rando:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
 }
 
 .carte-contenu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    transform: rotateX(-90deg);
-    transform-origin: bottom;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.carte-rando:hover .carte-contenu {
-    transform: rotateX(0deg);
+.carte-difficulte {
+  align-self: flex-start;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+.difficulte-modere { background: #FAEEDA; color: #854F0B; }
+
+.carte-titre { margin: 0; font-size: 18px; }
+.carte-texte { margin: 0; color: #666; line-height: 1.6; }
+
+.carte-infos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: #666;
 }
 
-.carte-titre {
-    margin: 0;
-    font-size: 25px;
-    color: #333;
-    font-weight: 700;
+.button {
+  width: auto;
+  height: auto;
+  background: #325120;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 10px 18px;
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: inline-flex;
+  user-select: auto;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  margin-top: 8px;
+  align-self: flex-start;
 }
 
-.carte-contenu {
-    margin: 10px 0 0;
-    font-size: 14px;
-    color: grey;
-    line-height: 1.4;
+.button:hover {
+  transform: translateY(-3px);
+  background: #008800;
+  color: #ffffff;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+/* grille fondateurs (3 colonnes) */
+.grid-fondateurs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 150px auto 0;
+  padding: 0 16px;
 }
 
 .footer {
-	 text-align: center;
-  	padding: 5px;
-  	background-color: #abbaba;
-  	color: black;
+  text-align: center;
+  padding: 5px;
+  background-color: #abbaba;
+  color: black;
 }
