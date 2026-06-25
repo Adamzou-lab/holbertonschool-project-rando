@@ -1,3 +1,7 @@
+/* police fonts */
+body {
+    font-family: 'Nunito', sans-serif;
+}
 /* color base */
 :root {
     --blanc:    #efefef;
