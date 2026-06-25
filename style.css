@@ -84,6 +84,7 @@ nav {
   border-radius: 8px;
 }
 .difficulte-modere { background: #FAEEDA; color: #854F0B; }
+.difficulte-difficile { background: #FCDEDE; color: #991B1B; }
 
 .carte-titre { margin: 0; font-size: 18px; }
 .carte-texte { margin: 0; color: #666; line-height: 1.6; }
